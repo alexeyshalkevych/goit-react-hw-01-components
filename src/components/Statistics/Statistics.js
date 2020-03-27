@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ProximaNovaFonts from '../../assets/fonts/ProximaNova/ProximaNova-font';
+import randomColorGenerator from '../../helpers/randomColorGenerator';
 import {
   StatisticsSection,
   StatisticsTitle,
@@ -9,11 +10,6 @@ import {
   LabelItem,
   PercentageItem,
 } from './Statistics.styled';
-
-const randomColorGenerator = () =>
-  `rgb(${Math.floor(Math.random() * 256)},${Math.floor(
-    Math.random() * 256,
-  )},${Math.floor(Math.random() * 256)})`;
 
 const Statistics = ({ title, stats }) => (
   <StatisticsSection>
