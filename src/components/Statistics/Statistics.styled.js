@@ -4,7 +4,8 @@ export const StatisticsSection = styled.section`
   width: 270px;
   margin: 0 auto;
   padding: 50px 0;
-  font-family: 'Proxima Nova';
+  font-family: 'Lato';
+  font-weight: 400;
   line-height: 1.2;
   border-radius: 2px;
   box-shadow: 0px 2px 2px 0px rgba(2, 2, 2, 0.02);
@@ -46,5 +47,4 @@ export const LabelItem = styled.span`
 
 export const PercentageItem = styled.span`
   font-size: 18px;
-  font-weight: 400;
 `;

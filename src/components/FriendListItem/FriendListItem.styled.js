@@ -34,7 +34,7 @@ export const ItemAvatar = styled.img`
 export const ItemName = styled.p`
   align-self: center;
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 1.2;

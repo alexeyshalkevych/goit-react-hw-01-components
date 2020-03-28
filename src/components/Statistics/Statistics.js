@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ProximaNovaFonts from '../../assets/fonts/ProximaNova/ProximaNova-font';
 import randomColorGenerator from '../../helpers/randomColorGenerator';
 import {
   StatisticsSection,
@@ -13,7 +12,6 @@ import {
 
 const Statistics = ({ title, stats }) => (
   <StatisticsSection>
-    <ProximaNovaFonts />
     {title && <StatisticsTitle>{title}</StatisticsTitle>}
     <StatisticsList>
       {stats.map(({ id, label, percentage }) => (

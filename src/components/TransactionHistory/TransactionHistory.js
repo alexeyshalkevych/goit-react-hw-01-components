@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import HelveticaNeueCyrFonts from '../../assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr-font';
 import {
   TransactionTable,
   TransactionHead,
@@ -14,7 +13,6 @@ const cellHeadItems = ['Type', 'Amount', 'Currency'];
 
 const TransactionHistory = ({ items }) => (
   <TransactionTable>
-    <HelveticaNeueCyrFonts />
     <TransactionHead>
       <RowContainer>
         {cellHeadItems.map(item => (

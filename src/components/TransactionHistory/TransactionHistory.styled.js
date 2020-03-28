@@ -3,7 +3,8 @@ import styled from 'styled-components';
 export const TransactionTable = styled.table`
   width: 875px;
   margin: 0 auto;
-  font-family: 'HelveticaNeueCyr';
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
   background-color: rgb(255, 255, 255);
   border-collapse: collapse;
   box-shadow: 0px 3px 10px 6px rgba(0, 0, 0, 0.75);
@@ -13,6 +14,7 @@ export const TransactionHead = styled.thead`
   font-size: 13px;
   line-height: 2.308;
   font-weight: 700;
+  letter-spacing: 1px;
   background-color: rgb(0, 188, 212);
   color: rgb(255, 255, 255);
   text-transform: uppercase;

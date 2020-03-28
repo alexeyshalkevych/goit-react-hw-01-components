@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import LatoFonts from '../../assets/fonts/Lato/Lato-font';
 import {
   ProfileContainer,
   DescriptionContainer,
@@ -22,7 +21,6 @@ const Profile = ({
   stats: { followers, views, likes },
 }) => (
   <ProfileContainer>
-    <LatoFonts />
     <DescriptionContainer>
       <AvatarImage src={avatar} alt="user avatar" />
       <Name>{name}</Name>

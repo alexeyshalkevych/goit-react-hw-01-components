@@ -5,7 +5,8 @@ export const ProfileContainer = styled.div`
   margin: 0 auto;
   font-size: 14px;
   line-height: 32px;
-  font-family: 'Lato Regular';
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
   background-color: rgb(231, 236, 242);
   color: rgb(118, 134, 150);
   border-radius: 4px;
@@ -30,8 +31,9 @@ export const AvatarImage = styled.img`
 
 export const Name = styled.p`
   margin: 0;
-  font-family: 'Lato Bold';
+  font-family: 'Lato', sans-serif;
   font-size: 18px;
+  font-weight: 600;
   color: rgb(18, 34, 54);
 `;
 
@@ -72,7 +74,8 @@ export const LabelItem = styled.span`
 `;
 
 export const QuantityItem = styled.span`
-  font-family: 'Lato Black';
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
   line-height: 1.2;
   color: rgb(31, 51, 73);
 `;
